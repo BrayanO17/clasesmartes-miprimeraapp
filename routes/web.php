@@ -1,7 +1,18 @@
 <?php
 
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use PHPUnit\Event\Test\PrintedUnexpectedOutputSubscriber;
+Route::get('/formulario', function(){
+
+    return view("form");
+});
+Route::get('/contacto', function(Request $request) {
+    echo "<pre>";
+    print_r($request->get('nombre'));
+    echo "</pre>";
+
+});
 
 Route::get('/php-basico', function () {
 
