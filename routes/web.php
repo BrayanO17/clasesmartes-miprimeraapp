@@ -8,8 +8,11 @@ Route::get('/formulario', function(){
     return view("form");
 });
 Route::get('/contacto', function(Request $request) {
+    echo "<h3>Datos recibidos:</h3>";
     echo "<pre>";
-    print_r($request->get('nombre'));
+    print_r($request->get('email'));
+    echo "\n"; // Salto de línea para que no queden pegados
+    print_r($request->get('mensaje'));
     echo "</pre>";
 
 });
