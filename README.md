@@ -1,7 +1,7 @@
 # ¡Hola! Soy [Brayan Olaya] 👋
 
 <p align="center">
-  <img src="[d:\Mis proyectos backed\Foto.jpg]" alt="Mi Foto" width="200" style="border-radius: 50%;">
+  <img src="Foto.jpg" alt="Mi Foto" width="200" style="border-radius: 50%;">
 </p>
 
 ### 👨‍💻 Sobre mí
